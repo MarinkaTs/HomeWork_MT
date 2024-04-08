@@ -8,7 +8,7 @@ def get_days_from_today(date):
         # Отримання поточної дати
         current_date = datetime.today().date()
         
-        
+        # Отримання різниці між поточною датою та заданою датою
         delta = current_date - date_obj.date()
         
         return delta.days
